@@ -32,7 +32,7 @@ BenedictPDF v2 is the hardened, production-grade evolution of [BenedictPDF](http
 | Granular permissions (restrict printing/copying/editing) | ❌ | ✅ |
 | Owner-vs-user password distinction on removal | ❌ | ✅ Verified before allowing removal |
 | Sample Power App included | ✅ | ❌ (function + connector only — see [Why no sample app](#why-no-sample-app)) |
-| DocuSign / e-signature integration | ✅ | ❌ (not yet ported) |
+| DocuSign / e-signature integration | ✅ | ✅ (works with [BenedictPDF v1](https://github.com/Benedict-Corp/benedict-pdf) setup if you change v1's HTTP connector to Custom Connector from v2) |
 | Deployment complexity | Low — copy/paste and go | Higher — requires Entra ID app registration |
 
 **If you want the fastest path to something working, or don't need identity-based access control, [BenedictPDF v1](https://github.com/Benedict-Corp/benedict-pdf) is the better starting point.** Come back to v2 when you need real access control over who can call the function, or when you need to restrict what recipients can do with a document beyond just requiring a password to open it.
