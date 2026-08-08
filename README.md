@@ -1,6 +1,6 @@
 # BenedictPDF v2
 
-![Benedict Corp](https://raw.githubusercontent.com/Benedict-Corp/benedict-pdf-v2/main/assets/logo.svg)
+![Benedict Corp](https://github.com/Benedict-Corp/benedict-pdf-v2/blob/main/assets/logo.csv)
 
 **Hardened, Entra ID-authenticated PDF processing for Microsoft Power Platform — watermark, password protect, restrict permissions, and remove protection on your own Azure infrastructure.**
 
